@@ -12,7 +12,22 @@
   <title>PAGE TITLE</title>
   <% include view/_header %>
 </head>
-<body>s
-<script src="assets/js/app.js" async></script>
+<body>
+<div class="container">
+  <div class="notification">
+    <script src="assets/js/app.js" async></script>
+    <div class="columns">
+      <div class="column">
+        <% include view/_cheese %>
+      </div>
+      <div class="column">
+        <% include view/_cheese %>
+      </div>
+      <div class="column">
+        <% include view/_cheese %>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
